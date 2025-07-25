@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kopi Nusantara Distribusi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>KOPI NUSANTARA DISTRIBUSI</h1>
+    <p>Rasa Lokal, Bisnis Global</p>
+    <nav>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#produk">Produk</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Distributor Kopi Terpercaya</h2>
+    <p>Biji Kopi Premium, Harga Grosir, Pengiriman Cepat</p>
+    <a href="https://wa.me/6281234567890" class="cta">Hubungi Kami</a>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>
+      Kami adalah distributor kopi sejak 2019, menyediakan kopi arabika, robusta, dan
+      layanan OEM. Kami bermitra langsung dengan petani kopi lokal di seluruh Indonesia.
+    </p>
+  </section>
+
+  <section id="produk">
+    <h2>Produk Kami</h2>
+    <ul>
+      <li>Kopi Arabika Gayo – 1 Kg – Rp 135.000</li>
+      <li>Kopi Robusta Temanggung – 1 Kg – Rp 110.000</li>
+      <li>Kopi Toraja Bubuk – 250g – Rp 45.000</li>
+      <li>Biji Kopi Sangrai Campuran – 1 Kg – Rp 120.000</li>
+      <li>Private Label Kopi (OEM) – MOQ 50 Kg</li>
+    </ul>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/6281234567890">+62 812-3456-7890</a></p>
+    <p>📷 Instagram: <a href="https://instagram.com/kopinusantara.id">@kopinusantara.id</a></p>
+    <p>✉️ Email: info@kopinusantara.com</p>
+    <p>📍 Gudang: Jl. Raya Kopi No. 10, Bandung</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kopi Nusantara Distribusi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fffaf3;
+  color: #333;
+}
+
+header {
+  background-color: #3e2723;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #ffd700;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #6d4c41;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #6d4c41;
+}
+
+footer {
+  text-align: center;
+  background-color: #3e2723;
+  color: white;
+  padding: 20px;
+}
